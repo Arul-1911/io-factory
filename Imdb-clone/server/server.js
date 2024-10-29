@@ -16,7 +16,7 @@ app.use(express.json());
 app.use("/api/users", userRoutes);
 
 //token middleware
-// app.use(authToken);
+app.use(authToken);
 
 //routes
 app.use("/api/movies", movieRoute);
