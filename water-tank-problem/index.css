@@ -1,0 +1,64 @@
+body {
+  background-color: lightcyan;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.output-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+label {
+  font-size: 17px;
+}
+
+.label-container {
+  margin-top: 5px;
+  border: none;
+}
+
+#heights {
+  border-radius: 5px;
+  padding: 9px;
+  height: 20px;
+  min-width: 20px;
+  border: 1px solid lightgray;
+  width: 250px;
+}
+
+#calculate {
+  font-size: 15px;
+  margin-top: 11px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+}
+
+#water-visualization {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 50px;
+  height: 40px;
+}
+
+.building {
+  background-color: #1d1c1c;
+}
+
+.water {
+  background-color: rgb(78, 78, 235);
+}
